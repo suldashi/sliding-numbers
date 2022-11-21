@@ -19,6 +19,6 @@ player has to play around them to win.
 2. Install `vite` globally by typing `npm install -g vite`
 3. Navigate to the repo directory, then install the local dependencies by typing `npm install`
 4. Type `npm run dev` to run a development server
-5. Navigate to [http://localhost:5173](http://localhost:5173) to see the game in action
+5. Navigate to [http://localhost:5173/sliding-numbers](http://localhost:5173/sliding-numbers) to see the game in action
 
 License: MIT

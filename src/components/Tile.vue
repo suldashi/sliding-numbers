@@ -8,10 +8,18 @@ defineProps({
 function colorMap(val) {
   let colorMapObj = {
     '-1': 'black',
-    1:'red',
-    2:'blue',
-    4:'gold',
-    8:'tomato'
+    1:'#23DB5C',
+    2:'#47DB5C',
+    4:'#94DB5C',
+    8:'#dcb683',
+    16: '#d79f6d',
+    32: '#d48a68',
+    64: '#ce7148',
+    128: '#e0d182',
+    256: '#decd74',
+    512: '#decb68',
+    1024: '#ddc75c',
+    2048: '#dbc452'
   };
   return colorMapObj[val] ? colorMapObj[val] : 'gold'
 }
